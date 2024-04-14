@@ -13,7 +13,7 @@ class Solution:
 
         def inorder(root):
             if not root:
-                returns
+                return
             inorder(root.left)
             self.lst.append(root.val)
             inorder(root.right)
